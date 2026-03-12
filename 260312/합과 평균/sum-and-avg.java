@@ -1,13 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Please write your code here.
-        Scanner sc = new Scanner(System.in));
+        Scanner sc = new Scanner(System.in);
 
+        // 변수 선언
         int a, b;
-
+        
+        // 입력
         a = sc.nextInt();
         b = sc.nextInt();
 
-        System.out.printf("%d %.lf\n", a + b, (double)(a + b) / 2);
+        // 출력
+        System.out.printf("%d %.1f\n", a + b, (double)(a + b) / 2);
     }
 }
+
